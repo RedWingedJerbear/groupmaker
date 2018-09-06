@@ -6,6 +6,7 @@ html {
 }
 
 body {
+  text-align: center;
   padding-top: 60px;
   padding-bottom: 20px;
   /* Margin bottom by footer height */
@@ -22,14 +23,18 @@ body {
   padding-top: 10px;
 }
 
-#results{
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10%;
-  background-color: ghostwhite;
-  /* Hide the results column by default */
-  display: none;
+.navbar{
+  background-color: #006747;
 }
 
+.btn{
+  background-color: #006747;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #ce1126;
+  color: white;
+}
 
 
